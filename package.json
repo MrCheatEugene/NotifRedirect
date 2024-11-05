@@ -1,0 +1,32 @@
+{
+  "name": "org.mrcheat.smsreporter",
+  "displayName": "SMSReporter",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.1.0",
+    "cordova-plugin-background-mode": "^0.7.3",
+    "cordova-plugin-device": "^2.1.0",
+    "cordova-plugin-notification-listener": "github:SmallTsai/cordova-plugin-notification-listener",
+    "cordova-plugin-sms": "^1.0.5"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-sms": {},
+      "cordova-plugin-background-mode": {},
+      "cordova-plugin-notification-listener": {}
+    }
+  }
+}
